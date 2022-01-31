@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "home-24-icons";
+  src: url("fonts/home-24-icons.eot?tmdkfx");
+  src: url("fonts/home-24-icons.eot?tmdkfx#iefix") format("embedded-opentype"),
+    url("fonts/home-24-icons.ttf?tmdkfx") format("truetype"),
+    url("fonts/home-24-icons.woff?tmdkfx") format("woff"),
+    url("fonts/home-24-icons.svg?tmdkfx#home-24-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "home-24-icons" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.h24-icon-cart:before {
+  content: "\e93a";
+}
+.h24-icon-search:before {
+  content: "\e986";
+}
